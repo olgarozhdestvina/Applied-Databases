@@ -1,0 +1,8 @@
+select c.name, dateArrived, cn.name
+from country cn
+inner join city c
+on cn.Code = c.CountryCode
+inner join hasvisitedcity h
+on c.ID = h.cityID
+where personID = 2
+order by c.name;

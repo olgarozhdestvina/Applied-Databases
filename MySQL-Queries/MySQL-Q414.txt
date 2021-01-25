@@ -1,0 +1,9 @@
+select c.name, cn.name, cl.language, cl.percentage
+from countrylanguage cl
+inner join city c
+on c.CountryCode = cl.CountryCode
+inner join country cn
+on cn.capital = c.ID
+where continent = "North America"
+and isOfficial = "T"
+order by c.name, cn.name, cl.language, cl.percentage;
