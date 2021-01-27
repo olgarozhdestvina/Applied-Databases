@@ -9,7 +9,7 @@ The project has the following features:
 
 * MySQL-Queries: 5 MySQL queries in a .txt format.
 * Mongo-Queries: 4 MongoDB queries in a .txt format.
-* PythonApp: work with MySQL and MongoDB.
+* PythonApp: interation with MySQL and MongoDB databases.
 * Normalisation: .doc file containing analysis of an employee database and my evaluation of its design. 
 
 <br>
@@ -34,6 +34,8 @@ Libraries used for the PythonApp are: [PyMySQL](https://pypi.org/project/PyMySQL
 <br>
 
 ###  How to run the Python App
+___
+
 
 1. Download or clone current repository "Applied-Databases"
 2. Open Command Interpreter 
