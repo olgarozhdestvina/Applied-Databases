@@ -1,6 +1,8 @@
-# Olga Rozhdestvina
-# Program that allows a user to interact with two databases: MySQL "world" and MondoDB "mongo"
-# through a menu with 8 different options
+"""
+Olga Rozhdestvina
+Program that allows a user to interact with two databases: 
+MySQL "world" and MondoDB "mongo" through a menu with 8 different options
+"""
 
 # importing supporting libraries  
 import mysql
