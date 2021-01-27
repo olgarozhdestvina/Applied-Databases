@@ -7,13 +7,13 @@ import pymongo
 # declaring a global variable outside functions
 myclient = None
 
-# defining a function for connecting to the MongoDB database "mongo"
+# Connecting to the MongoDB database "mongo"
 def connect():
     global myclient
     myclient = pymongo.MongoClient()
     myclient.admin.command("ismaster")
 
-# defining a function for viewing students by address
+# Viewing students by address
 def studByAddress():
     # if not connected to the database, to connect 
     if not myclient:
@@ -44,7 +44,7 @@ def studByAddress():
     except Exception as e:
         print(e)
 
-# defining a function for adding a course to the database
+# Adding a course to the database
 def addCourse():
     if not myclient:
         connect()

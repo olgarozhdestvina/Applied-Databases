@@ -6,7 +6,7 @@
 import mysql
 import mongo
 
-# defining a function that displays a main menu
+# The main menu
 def menu():
     print("\nWorld DB")
     print("--------\n")
@@ -21,7 +21,7 @@ def menu():
     print("7 - Add New Course")
     print("x - Exit Application")
 
-# defining a main function for interacting with a user
+# Main function for interacting with a user
 def main():
     # setting an infinite loop that only breaks if "x" is chosen
     while True:
