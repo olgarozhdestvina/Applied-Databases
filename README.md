@@ -1,7 +1,7 @@
 ## Applied Databases
 ### [Project assessment for Applied Databases Module - GMIT 2020]
 
-<img height="200" src="https://lh3.googleusercontent.com/proxy/HRPOkLPECRRnZMxrRrIyDEqDfl43QLYjgOAZ8fUEEFomBIv1t0i1eO_sxz0lM2j4XzazgbyNOskG5DyTMEmtjnSsLliQnVhX_CTbv0JcK7YS2vJ8smBDL9uAvA">
+<img height="250" src="https://freepngimg.com/thumb/database/4-2-database-png.png">
 
 <br>
 
