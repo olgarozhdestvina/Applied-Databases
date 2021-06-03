@@ -9,7 +9,7 @@ The project has the following features:
 
 * MySQL-Queries: 5 MySQL queries in a .txt format.
 * Mongo-Queries: 4 MongoDB queries in a .txt format.
-* PostgreSQL: queries in a .sql format.
+* PostgreSQL-Queries: PostgreSQL queries in a .sql format.
 * PythonApp: interaction with MySQL and MongoDB databases.
 * Normalisation: .doc file containing analysis of an employee database and my evaluation of its design. 
 
