@@ -1,0 +1,47 @@
+School:
+		school_id,
+		street_name,
+		house_nr,
+		postal_code,
+		state,
+		city
+		
+Instructor:
+		teacher_id,
+		school_id,
+		first_name,
+		last_name,
+		date_of_birth,
+		hire_date
+		
+Student:
+		student_id,
+		school_id,
+		first_name,
+		last_name,
+		date_of_birth
+		
+Lesson:
+		lesson_id,
+		teacher_id,
+		student_id,
+		vehicle_id,
+		package,
+		enrollment_date
+		
+		
+Vehicle:
+		vehicle_id,
+		maintenance_id
+
+Maintenance:
+		maintenance_id,
+		vehicle_id,
+		date_of_maintenance
+
+Exam:
+		teacher_id,
+		student_id,
+		lesson_id,
+		date_taken,
+		passed
